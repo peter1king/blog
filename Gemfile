@@ -6,6 +6,11 @@ ruby '2.6.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use mysql as the database for Active Record
+# gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+# gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+# gem 'sassc-rails', '>= 2.1.0'
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -40,8 +45,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
-  # gem 'rspec-rails', '2.11.0'
-  # gem 'factory_girl_rails','1.4.0'
   gem 'capybara'
 end
 
